@@ -17,7 +17,15 @@ a:hover,
 a:focus {
   background: #f7f5f5;
 }
-
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -117,7 +125,7 @@ button:active {
   color: black;
 }
 
-p {
+.second-section p {
   text-align: center;
   font-size: 18px;
   margin: 0;
@@ -136,10 +144,10 @@ p {
 .second-section {
   margin-bottom: 90px;
 }
-.service{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .red-text {
   font-size: 22px;
@@ -148,6 +156,7 @@ p {
   color: #ff5e69;
   margin: 0;
   margin-bottom: 20px;
+  text-transform: uppercase;
 }
 .large-text {
   width: 1000px;
@@ -159,8 +168,8 @@ p {
   margin-bottom: 110px;
 }
 .benefits {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .benefits-left,
 .benefits-center,
@@ -170,8 +179,8 @@ p {
   padding: 0;
   margin-right: 20px;
 }
-.benefits-right{
-    margin-right: 0;
+.benefits-right {
+  margin-right: 0;
 }
 .title {
   margin-top: 40px;
@@ -179,7 +188,7 @@ p {
   line-height: 26px;
   font-weight: 700;
   margin-bottom: 25px;
-  width: 350px;;
+  width: 350px;
 }
 .text-benefits {
   width: 350px;
@@ -194,16 +203,170 @@ p {
   color: black;
   font-weight: 700;
 }
-.product li{
-    position: relative;
-    margin-bottom: 10px;
+.product li {
+  position: relative;
+  margin-bottom: 10px;
 }
-.product li::before{
-    content: url(/images/Rectangle.png);
-    position: absolute;
-    top: -2px;
-    left:-14px;
+.product li::before {
+  content: url(/images/Rectangle.png);
+  position: absolute;
+  top: -2px;
+  left: -14px;
 }
-section{
-    margin-bottom: 90px;
+section {
+  margin-bottom: 90px;
+}
+
+.title-me {
+  display: flex;
+  justify-content: space-between;
+}
+.designer-me h1 {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #ff5e69;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.designer-me p {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  width: 500px;
+  margin: 0;
+  padding: 0;
+}
+#me {
+  width: 1100px;
+  margin-bottom: 80px;
+}
+.text-about-me {
+  width: 500px;
+  color: #666;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 100px;
+}
+.images-me {
+  display: grid;
+  grid-template-columns: 300px 480px 300px;
+  gap: 10px;
+}
+h3 {
+  margin: 0;
+}
+.education {
+  width: 1100px;
+  display: flex;
+  justify-content: space-around;
+}
+.educate {
+  width: 530px;
+}
+.left {
+  margin-right: 50px;
+}
+.educt {
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  padding: 0 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.educt::before {
+  content: url(/images/book.png);
+  width: 36px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.name-educate-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 35px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+.name-educate p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #666;
+}
+.year {
+  font-size: 16px;
+  line-height: 20px;
+  color: #666;
+  position: relative;
+}
+.year::before {
+  content: "";
+  top: 8px;
+  left: -6px;
+  width: 1px;
+  height: 1px;
+  background-color: #666;
+  border: 1px #666 solid;
+  border-radius: 50%;
+  position: absolute;
+}
+.work {
+  font-size: 36px;
+  line-height: 36px;
+  margin: 0;
+  padding: 0 45px;
+  margin-bottom: 15px;
+  position: relative;
+}
+.work::before {
+  content: url(/images/bag.png);
+  width: 36px;
+  height: 36px;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+.name-work-first p,
+.name-work-sec p,
+.name-work-th p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #666;
+}
+.name-work-first {
+  position: relative;
+  padding-left: 65px;
+}
+.name-work-first::before {
+  content: url(/images/fly.png);
+  top: 3px;
+  left: 0;
+  position: absolute;
+}
+.name-work-sec {
+  position: relative;
+  padding-left: 65px;
+}
+.name-work-sec::before {
+  content: url(/images/mash.png);
+  top: 3px;
+  left: 0;
+  position: absolute;
+}
+.name-work-th {
+  position: relative;
+  padding-left: 65px;
+}
+.name-work-th::before {
+  content: url(/images/king.png);
+  top: 3px;
+  left: 0;
+  position: absolute;
 }
