@@ -31,17 +31,28 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 header {
   padding-top: 20px;
   width: 100%;
   margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .main-nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-items: center;
+}
+.container {
+  width: 1100px;
 }
 .nav {
   width: 510px;
+}
+.logo {
+  width: 500px;
 }
 .navigation {
   margin: 0;
@@ -56,7 +67,7 @@ header {
 }
 .navigation li a {
   display: block;
-  padding: 6px 30px;
+  padding: 6px;
 }
 .navigation li button {
   width: 150px;
@@ -68,7 +79,7 @@ header {
 .navigation li button:active {
   background: #f7f5f5;
 }
-.first-section {
+.greetings {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -125,7 +136,7 @@ button:active {
   color: black;
 }
 
-.second-section p {
+.company p {
   text-align: center;
   font-size: 18px;
   margin: 0;
@@ -141,7 +152,7 @@ button:active {
 .th-logo {
   margin-right: 0;
 }
-.second-section {
+.company {
   margin-bottom: 90px;
 }
 .service {
@@ -208,7 +219,7 @@ button:active {
   margin-bottom: 10px;
 }
 .product li::before {
-  content: url(/images/Rectangle.png);
+  content: url(../images/Rectangle.png);
   position: absolute;
   top: -2px;
   left: -14px;
@@ -281,7 +292,7 @@ h3 {
   position: relative;
 }
 .educt::before {
-  content: url(/images/book.png);
+  content: url(../images/book.png);
   width: 36px;
   height: 36px;
   top: 0;
@@ -326,7 +337,7 @@ h3 {
   position: relative;
 }
 .work::before {
-  content: url(/images/bag.png);
+  content: url(../images/bag.png);
   width: 36px;
   height: 36px;
   top: 0;
@@ -345,7 +356,7 @@ h3 {
   padding-left: 65px;
 }
 .name-work-first::before {
-  content: url(/images/fly.png);
+  content: url(../images/fly.png);
   top: 3px;
   left: 0;
   position: absolute;
@@ -355,7 +366,7 @@ h3 {
   padding-left: 65px;
 }
 .name-work-sec::before {
-  content: url(/images/mash.png);
+  content: url(../images/mash.png);
   top: 3px;
   left: 0;
   position: absolute;
@@ -365,8 +376,108 @@ h3 {
   padding-left: 65px;
 }
 .name-work-th::before {
-  content: url(/images/king.png);
+  content: url(../images/king.png);
   top: 3px;
   left: 0;
   position: absolute;
+}
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.testimonials h3 {
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #4353ff;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.world-street {
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 50px;
+}
+.john {
+  box-shadow: 10px 15px 15px 1px #d6d4d0;
+}
+.john-testi {
+  display: flex;
+  justify-content: space-between;
+}
+.testi {
+  width: 500px;
+  padding-top: 20px;
+}
+.text-testi {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: left;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+h4 {
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 7px;
+}
+.founder {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  text-align: left;
+}
+.found-btn{
+  display: flex;
+  justify-content: space-between;
+}
+.left-right{
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #000;
+}
+.left-right:focus,
+.left-right:active,
+.left-right:hover{
+  color: #000;
+  background-color: #f7f5f5;
+  border: none;
+}
+.for{
+  margin-left: -0.25em;
+}
+.faq{
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h5{
+  color: #FF8A56;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 50px;
+}
+.faq-cont p{
+  color: #fff;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 80px;
 }
