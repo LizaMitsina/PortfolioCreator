@@ -164,8 +164,10 @@ button:active {
   font-size: 22px;
   line-height: 22px;
   text-align: center;
+  font-weight: 700;
   color: #ff5e69;
   margin: 0;
+  padding-top: 50px;
   margin-bottom: 20px;
   text-transform: uppercase;
 }
@@ -225,10 +227,11 @@ button:active {
   left: -14px;
 }
 section {
-  margin-bottom: 90px;
+  margin-bottom: 60px;
 }
 
 .title-me {
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -274,11 +277,13 @@ h3 {
 }
 .education {
   width: 1100px;
+  padding-top: 50px;
   display: flex;
   justify-content: space-around;
 }
 .educate {
   width: 530px;
+  padding-top: 70px;
 }
 .left {
   margin-right: 50px;
@@ -371,6 +376,9 @@ h3 {
   left: 0;
   position: absolute;
 }
+.educate{
+  padding-top: 40px;
+}
 .name-work-th {
   position: relative;
   padding-left: 65px;
@@ -382,9 +390,11 @@ h3 {
   position: absolute;
 }
 .testimonials {
+  padding-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  margin-bottom: 90px;
 }
 .testimonials h3 {
   font-size: 22px;
@@ -393,6 +403,7 @@ h3 {
   color: #4353ff;
   text-transform: uppercase;
   margin-bottom: 20px;
+  padding-top: 50px;
 }
 .world-street {
   font-size: 48px;
@@ -463,6 +474,8 @@ h4 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin:0;
+  padding-bottom: 80px;
 }
 h5{
   color: #FF8A56;
@@ -479,5 +492,79 @@ h5{
   line-height: 52px;
   font-weight: 700;
   text-align: center;
-  margin-bottom: 80px;
+  padding-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+.ready{
+  color: #fff;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 700;
+  text-align: left;
+}
+.lets{
+  border:0;
+  background-color: #000;
+  color: #4353ff;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 700;
+  text-align: left;
+  padding: 0;
+}
+.lets:hover,
+.lets:active,
+.lets:active{
+  background-color: #000;
+  color: #4353ff;
+}
+.footer-cont{
+  color:#fff;
+  display:flex;
+  justify-content: space-between;
+}
+.right-foot{
+  width:480px;
+  display: flex;
+  justify-content: space-between;
+}
+.li-foot-a{
+  color:#fff;
+  display: block;
+  padding: 4px;
+  
+}
+.right-foot li{
+  margin-bottom: 20px;
+}
+.li-foot-a:hover,
+.li-foot-a:active,
+.li-foot-a:active{
+  color: #000;
+}
+address{
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+.mail{
+  color: #666;
+  font-size: 14px;
+  line-height: 20px;
+  position: relative;
+  padding-left: 35px;
+}
+.mail::before{
+  content:url(../images/mail.png);
+  position:absolute;
+  top:0;
+  left:0;
 }
