@@ -76,7 +76,7 @@ header {
   border: none;
 }
 .navigation li button:hover,
-.navigation li button:active {
+.navigation li button:focus {
   background: #f7f5f5;
 }
 .greetings {
@@ -127,11 +127,11 @@ header {
   padding: 20px 30px;
 }
 button:hover,
-button:active {
+button:focus {
   background: #f7f5f5;
 }
 .black:hover,
-.black:active {
+.black:focus {
   background: #f7f5f5;
   color: black;
 }
@@ -229,6 +229,123 @@ button:active {
 section {
   margin-bottom: 60px;
 }
+#project{
+  padding-top: 50px;
+}
+.blog-cont{
+  padding-top: 250px;
+  display: flex;
+  justify-content: space-between;
+}
+.blog{
+  text-align: left;
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #FFA84B;
+  text-transform: uppercase;
+  padding-top: 50px;
+}
+.latest-news{
+  text-align: left;
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 700;
+  margin: 15px 0;
+}
+.view{
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+.view:hover,
+.view:focus{
+  text-decoration: underline;
+  background-color: #000;
+}
+.list-blog{
+  width: 650px;
+  padding-top: 70px;
+}
+.read:hover{
+  text-decoration: underline;
+  background-color: #000;
+}
+.read{
+  color: #fff;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #fff;
+}
+.text-blog{
+  font-size: 28px;
+  line-height: 36px;
+  font-weight: 700;
+  margin:20px 0 35px 0;
+}
+time{
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: #fff;
+  opacity: 0.5;
+}
+.list-blog li{
+  padding: 25px 0 35px 0;
+  border-bottom: 1px solid rgba(229, 229, 229, 0.2);;
+}
+.title-main-project{
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  color:#B16CEA;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.results p{
+  font-size: 46px;
+  line-height: 52px;
+  font-weight: 700;
+  
+}
+.project-text{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 65px;
+}
+.project-text button{
+  width: 200px;
+  background-color: #000;
+  color: #fff;
+  padding:15px 0;
+  border: none;
+  font-size: 18px;
+}
+.project-text button:hover{
+  background-color: #f7f5f5;
+  color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .title-me {
   padding-top: 50px;
@@ -264,7 +381,7 @@ section {
   font-weight: 400;
   text-align: left;
   margin: 0;
-  padding: 0;
+  padding: 50px 0 0 0;
   margin-bottom: 100px;
 }
 .images-me {
@@ -459,7 +576,6 @@ h4 {
   background-color: #000;
 }
 .left-right:focus,
-.left-right:active,
 .left-right:hover {
   color: #000;
   background-color: #f7f5f5;
@@ -511,13 +627,14 @@ details {
   line-height: 30px;
   font-weight: 700;
   text-align: left;
-  padding: 20px 0 30px 3px;
+  padding: 30px 0 30px 3px;
   border-bottom: 1px solid rgba(229, 229, 229, 0.2);
   display: block;
   width: 100%;
   position: relative;
 }
-.title-details:hover {
+.title-details:hover,
+.title-details:focus {
   cursor: pointer;
   background-color: #11110f;
   transition: 0.5s ease;
@@ -526,7 +643,7 @@ details {
   display: block;
   content: "‹";
   transform: rotate(270deg);
-  top: 22px;
+  top: 33px;
   right: 7px;
   position: absolute;
   transition: 0.4s ease;
@@ -575,8 +692,7 @@ details summary::-webkit-details-marker {
   padding: 0;
 }
 .lets:hover,
-.lets:active,
-.lets:active {
+.lets:focus,{
   background-color: #000;
   color: #4353ff;
 }
@@ -599,8 +715,7 @@ details summary::-webkit-details-marker {
   margin-bottom: 20px;
 }
 .li-foot-a:hover,
-.li-foot-a:active,
-.li-foot-a:active {
+.li-foot-a:focus {
   color: #000;
 }
 address {
