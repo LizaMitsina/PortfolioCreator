@@ -18,7 +18,7 @@
     <header>
       <nav class="main-nav container">
         <div class="logo">
-          <img src="images/logo.png" alt="PORTFOLIO CREATOR" />
+          <img src="images/logo.png" alt="PORTFOLIO CREATOR" id="main"/>
         </div>
         <div class="nav">
           <ul class="navigation">
@@ -123,24 +123,28 @@
       </div>
       <ul class="list-project">
         <li>
-          <img src="/images/project-one.png" />
-          <p>Бренд</p>
-          <p>Душевный ребрендинг</p>
-          <a href="#">Посмотреть проект</a>
+          <img src="/images/project-one.png" width="450px" height="350px"/>
+          <p class="name-project">Branding</p>
+          <p class="project-name">Душевный ребрендинг</p>
+          <a href="#" class="project-view">Смотреть</a>
         </li>
         <li>
-          <img src="/images/project-one.png" />
-          <p>Бренд</p>
-          <p>Душевный ребрендинг</p>
-          <a href="#">Посмотреть проект</a>
+          <img src="/images/project-two.png"  width="450px" height="350px"/>
+          <p class="name-project">Product design</p>
+          <p class="project-name">Datadash дизайн-макетов</p>
+          <a href="#" class="project-view">Смотреть</a>
         </li>
         <li>
-          <img src="/images/project-one.png" />
-          <p>Бренд</p>
-          <p>Душевный ребрендинг</p>
-          <a href="#">Посмотреть проект</a>
+          <img src="/images/project-three.png" width="450px" height="350px"/>
+          <p class="name-project">Web-design</p>
+          <p class="project-name">Maize Web-дизайн</p>
+          <a href="#" class="project-view">Смотреть</a>
         </li>
       </ul>
+      <div class="design-btn">
+        <button type="button" class="left-design">&lt;</button>
+        <button type="button" class="left-design">&gt;</button>
+      </div>
     </section>
     <section class="faq">
       <div class="container blog-cont">
@@ -423,7 +427,7 @@
     <footer class="footer">
       <div class="container footer-cont">
         <div class="left-foot">
-          <img src="/images/logo-foot.png" />
+          <a href=#main class="logo-main"><img src="/images/logo-foot.png" /></a>
           <address>4353 Delaware Avenue, Сан-Франциско, США</address>
           <p class="mail">hi@thefolio.com</p>
         </div>
