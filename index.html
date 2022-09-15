@@ -18,7 +18,7 @@
     <header>
       <nav class="main-nav container">
         <div class="logo">
-          <img src="images/logo.png" alt="PORTFOLIO CREATOR" id="main"/>
+          <img src="images/logo.png" alt="PORTFOLIO CREATOR" id="main" />
         </div>
         <div class="nav">
           <ul class="navigation">
@@ -26,7 +26,7 @@
             <li><a href="#services">Услуги</a></li>
             <li><a href="#project">Проекты</a></li>
             <li>
-              <button type="button" class="popup">Заказать звонок</button>
+              <button type="button" class="open-call">Заказать звонок</button>
             </li>
           </ul>
         </div>
@@ -41,7 +41,7 @@
           интерфейсы для быстрорастущих стартапов.
         </div>
         <div>
-          <button type="button" class="btn black" class="popup">
+          <button type="button" class="open-call btn black">
             Заказать звонок
           </button>
           <button type="button" class="btn white">Посмотреть CV</button>
@@ -123,19 +123,19 @@
       </div>
       <ul class="list-project">
         <li>
-          <img src="/images/project-one.png" width="450px" height="350px"/>
+          <img src="/images/project-one.png" width="450px" height="350px" />
           <p class="name-project">Branding</p>
           <p class="project-name">Душевный ребрендинг</p>
           <a href="#" class="project-view">Смотреть</a>
         </li>
         <li>
-          <img src="/images/project-two.png"  width="450px" height="350px"/>
+          <img src="/images/project-two.png" width="450px" height="350px" />
           <p class="name-project">Product design</p>
           <p class="project-name">Datadash дизайн-макетов</p>
           <a href="#" class="project-view">Смотреть</a>
         </li>
         <li>
-          <img src="/images/project-three.png" width="450px" height="350px"/>
+          <img src="/images/project-three.png" width="450px" height="350px" />
           <p class="name-project">Web-design</p>
           <p class="project-name">Maize Web-дизайн</p>
           <a href="#" class="project-view">Смотреть</a>
@@ -420,14 +420,18 @@
       <div class="container">
         <p class="ready">Готов сделать что-то офигенное?</p>
         <p>
-          <button type="button" class="lets popup">Давай созвонимся.</button>
+          <button type="button" class="open-call lets">
+            Давай созвонимся.
+          </button>
         </p>
       </div>
     </section>
     <footer class="footer">
       <div class="container footer-cont">
         <div class="left-foot">
-          <a href=#main class="logo-main"><img src="/images/logo-foot.png" /></a>
+          <a href="#main" class="logo-main"
+            ><img src="/images/logo-foot.png"
+          /></a>
           <address>4353 Delaware Avenue, Сан-Франциско, США</address>
           <p class="mail">hi@thefolio.com</p>
         </div>
@@ -450,6 +454,35 @@
         </div>
       </div>
     </footer>
-    <script></script>
+    <!--pop-up-->
+    <div class="pop-up-bg">
+      <div class="pop-up">
+        <img
+          src="images/cross.png"
+          class="cross cross-popup"
+          width="20px"
+          height="20px"
+        />
+        <img
+          src="images/logo.png"
+          width=""
+          alt="PORTFOLIOCREATOR."
+          class="logo-popup"
+        />
+        <h1>Заказать звонок</h1>
+        <p class="pop-up-p">
+          Оставьте Ваш номер телефона и мы перезвоним через несколько минут
+        </p>
+        <form>
+          <label class="label-tel">Ваш номер телефона:</label>
+          <input type="tel" placeholder="+375(  )" class="tel" />
+        </form>
+        <div class="btn-pop-up">
+          <button type="submit">Жду звонка</button>
+          <button type="button" class="cross">Отменить</button>
+        </div>
+      </div>
+    </div>
+    <script src="js.js"></script>
   </body>
 </html>
