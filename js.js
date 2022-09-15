@@ -14,3 +14,7 @@ close.addEventListener("click", (evt) => {
   evt.preventDefault();
   popup.style.display = "none";
 });
+close.addEventListener("click", (evt) => {
+    evt.preventDefault();
+    popup.style.display = "none";
+  });
