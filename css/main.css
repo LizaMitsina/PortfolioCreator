@@ -751,6 +751,7 @@ details summary::-webkit-details-marker {
   text-align: left;
 }
 .lets {
+  cursor: pointer;
   border: 0;
   background-color: #000;
   color: #4353ff;
@@ -817,28 +818,23 @@ address {
   display: none;
   width: 100%;
   height: 100%;
-  background-color: rgba(229, 229, 229, 0.3);
   position: fixed;
-  top:0;
-  left: 0;
-  z-index: 2;
+  z-index: 2;  
   display: flex;
-  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .pop-up {
-  display: block;
   width: 500px;
   height: 450px;
   background-color: #fff;
-  box-shadow: 10px 15px 25px 10px #d6d4d0;
+  box-shadow: 10px 10px 20px 10px rgba(229, 229, 229, 0.3);
   border-radius: 5%;
   padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  
-  position: relative;
+position: relative;
 }
 .cross-popup{
   position: absolute;
