@@ -819,35 +819,41 @@ address {
   width: 100%;
   height: 100%;
   position: fixed;
-  z-index: 2;  
+  top: 0;
+  left: 0;
+  }
+.pop-up-body {
+  width: 100%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .pop-up {
   width: 500px;
-  height: 450px;
-  background-color: #fff;
+  height: 520px;
+  background-color: rgb(34, 34, 34);
   box-shadow: 10px 10px 20px 10px rgba(229, 229, 229, 0.3);
   border-radius: 5%;
   padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-position: relative;
+  position: relative;
 }
-.cross-popup{
+.cross-popup {
   position: absolute;
   top: 20px;
-  left:520px;
+  left: 520px;
   z-index: 1;
+  transform: rotate(40deg);
 }
 .logo-popup {
   margin-top: 20px;
   width: 200px;
 }
 .pop-up h1 {
-  color: #ff8a56;
+  color: #f26a30;
   font-size: 56px;
   line-height: 56px;
   font-weight: 700;
@@ -857,7 +863,7 @@ position: relative;
 }
 .pop-up-p {
   width: 500px;
-  color: #010101;
+  color: #fff;
   font-size: 20px;
   line-height: 22px;
   font-weight: 700;
@@ -880,7 +886,7 @@ position: relative;
   line-height: 22px;
   font-weight: 700;
   color: #f5f5f5;
-  margin-top: 50px;
+  margin-top: 60px;
   display: block;
 }
 .pop-up button:hover,
@@ -894,6 +900,7 @@ position: relative;
   line-height: 20px;
   font-weight: 400;
   margin-right: 15px;
+  color: #fff;
 }
 .tel {
   width: 240px;
