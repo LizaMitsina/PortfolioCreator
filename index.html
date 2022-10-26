@@ -6,7 +6,7 @@
     <meta name="author" content="Лиза Митина" />
     <meta name="description" content="CREATOR" />
     <meta name="keywords" content="дизайн, проет, креатор" />
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link
@@ -51,9 +51,7 @@
       <div class="main-photo">
         <img
           src="images/main-photo.jpg"
-          alt="photo"
-          width="500px"
-          height="595px"
+          alt="photo" class="main-photo"
         />
       </div>
     </section>
@@ -124,19 +122,19 @@
       </div>
       <ul class="list-project">
         <li>
-          <img src="/images/project-one.png" width="400px" height="350px" />
+          <img src="/images/project-one.png" width="100%"/>
           <p class="name-project">Branding</p>
           <p class="project-name">Душевный ребрендинг</p>
           <a href="#" class="project-view">Смотреть</a>
         </li>
-        <li>
-          <img src="/images/project-two.png" width="400px" height="350px" />
+        <li class="no-image">
+          <img src="/images/project-two.png" />
           <p class="name-project">Product design</p>
           <p class="project-name">Datadash дизайн-макетов</p>
           <a href="#" class="project-view">Смотреть</a>
         </li>
-        <li>
-          <img src="/images/project-three.png" width="400px" height="350px" />
+        <li class="no-image">
+          <img src="/images/project-three.png"/>
           <p class="name-project">Web-design</p>
           <p class="project-name">Maize Web-дизайн</p>
           <a href="#" class="project-view">Смотреть</a>
@@ -148,53 +146,56 @@
       </div>
     </section>
     <section class="faq">
-      <div class="container blog-cont">
-        <div class="left-blog">
-          <p class="blog" id="blog">Блог</p>
-          <p class="latest-news">Последние новости</p>
-          <a href="#" class="view">Подробнее</a>
+      <div class="container">
+        <div class="blog-cont">
+          <div class="left-blog">
+            <p class="blog" id="blog">Блог</p>
+            <p class="latest-news">Последние новости</p>
+            <a href="#" class="view">Подробнее</a>
+          </div>
+          <ul class="list-blog">
+            <li>
+              <time datetime="2021-04-16">Апрель,16 2021.</time>
+              <p class="text-blog">
+                Советы для дизайнеров, которые знают всё, что нужно для вашего
+                проекта.
+              </p>
+              <a href="#" class="read">Читать</a>
+            </li>
+            <li>
+              <time datetime="2021-03-20">Март,20 2021.</time>
+              <p class="text-blog">
+                Как наладить отношения с клиентами веб-дизайна
+              </p>
+              <a href="#" class="read">Читать</a>
+            </li>
+            <li>
+              <time datetime="2021-03-15">Март,15 2021.</time>
+              <p class="text-blog">
+                TOP-6 бесплатных инструментов для создания макетов веб-сайтов
+                2021 года
+              </p>
+              <a href="#" class="read">Читать</a>
+            </li>
+            <li>
+              <time datetime="2021-02-06">Февраль,6 2021.</time>
+              <p class="text-blog">
+                Тенденции дизайна логотипов, которых следует избегать в 2021
+                году
+              </p>
+              <a href="#" class="read">Читать</a>
+            </li>
+            <li>
+              <time datetime="2021-01-23">Январь,23 2021.</time>
+              <p class="text-blog">22 лучших инструмента UI-дизайна</p>
+              <a href="#" class="read">Читать</a>
+            </li>
+          </ul>
         </div>
-        <ul class="list-blog">
-          <li>
-            <time datetime="2021-04-16">Апрель,16 2021.</time>
-            <p class="text-blog">
-              Советы для дизайнеров, которые знают всё, что нужно для вашего
-              проекта.
-            </p>
-            <a href="#" class="read">Читать</a>
-          </li>
-          <li>
-            <time datetime="2021-03-20">Март,20 2021.</time>
-            <p class="text-blog">
-              Как наладить отношения с клиентами веб-дизайна
-            </p>
-            <a href="#" class="read">Читать</a>
-          </li>
-          <li>
-            <time datetime="2021-03-15">Март,15 2021.</time>
-            <p class="text-blog">
-              TOP-6 бесплатных инструментов для создания макетов веб-сайтов 2021
-              года
-            </p>
-            <a href="#" class="read">Читать</a>
-          </li>
-          <li>
-            <time datetime="2021-02-06">Февраль,6 2021.</time>
-            <p class="text-blog">
-              Тенденции дизайна логотипов, которых следует избегать в 2021 году
-            </p>
-            <a href="#" class="read">Читать</a>
-          </li>
-          <li>
-            <time datetime="2021-01-23">Январь,23 2021.</time>
-            <p class="text-blog">22 лучших инструмента UI-дизайна</p>
-            <a href="#" class="read">Читать</a>
-          </li>
-        </ul>
       </div>
     </section>
-    <section id="me" class="container">
-      <div class="title-me">
+    <section id="me">
+      <div class="title-me container">
         <div class="designer-me">
           <h1>Дизайнер</h1>
           <p>Это про меня</p>
@@ -205,7 +206,7 @@
           которые радуют пользователей и помогают бизнесу расти.
         </p>
       </div>
-      <div class="images-me">
+      <div class="images-me container">
         <img
           src="images/tel-me.png"
           alt="TEL-ME"
@@ -229,7 +230,8 @@
         </div>
       </div>
     </section>
-    <section class="education container" id="experience">
+    <section class="container" id="experience">
+      <div class="education">
       <div class="educate left">
         <p class="educt">Образование</p>
         <ul class="name-educate-list">
@@ -281,7 +283,7 @@
             <p class="year">Апрель 2016 - Май 2017</p>
           </li>
         </ul>
-      </div>
+      </div></div>
     </section>
     <section class="container testimonials">
       <h3>Отзывы</h3>
@@ -315,7 +317,7 @@
         <h5>faq</h5>
         <p>Часто задаваемые вопросы</p>
       </div>
-      <div class="faq-question">
+      <div class="faq-question container">
         <div class="left-details">
           <details>
             <summary class="title-details">
