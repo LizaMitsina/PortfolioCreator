@@ -87,7 +87,7 @@ header {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 90px;
+  margin: 50px 0 90px;
 }
 .left-text {
   width: 60%;
@@ -97,7 +97,8 @@ header {
   flex-wrap: wrap;
 }
 .main-photo {
-  width: 40%;
+  width: 420px;
+  height: 470px;
 }
 .orange-text {
   color: #ff8a56;
@@ -147,7 +148,7 @@ button:focus {
 
 @media screen and (max-width: 550px) {
   .container {
-    width: 540px;
+    width: 520px;
   }
   .navigation li {
     font-size: 28px;
@@ -322,9 +323,6 @@ button:focus {
 section {
   margin-bottom: 60px;
 }
-#project {
-  padding-top: 50px;
-}
 .blog-cont {
   padding-top: 350px;
   display: flex;
@@ -362,7 +360,7 @@ section {
 @media screen and (max-width: 550px) {
   .blog-cont {
     width: 100%;
-    padding-top: 270px;
+    padding-top: 290px;
   }
   .blog {
     font-size: 44px;
@@ -506,12 +504,13 @@ time {
 
 #project {
   position: relative;
+  margin-bottom: -100px;
 }
 .design-btn {
   width: 100px;
   position: absolute;
   right: 0;
-  bottom: -300px;
+  bottom: -150px;
 }
 .title-main-project {
   position: relative;
@@ -519,16 +518,23 @@ time {
 .list-project {
   position: absolute;
   left: 0;
-  top: 280px;
+  top: 200px;
+}
+.image-project{
+  width: 350px;
+  height: 220px;
 }
 @media screen and (max-width: 550px) {
+  #project{
+    margin-bottom: -10px;
+  }
   .project-name {
     font-size: 20px;
     line-height: 22px;
   }
   .list-project li {
     width: 100%;
-  }
+      }
   .title-main-project {
     font-size: 44px;
     line-height: 44px;
@@ -539,7 +545,11 @@ time {
   .list-project {
     position: absolute;
     left: 0;
-    top: 380px;
+    top: 280px;
+  }
+  .first-image-project{
+    width: 520px;
+    height: 320px;
   }
   .left-design {
     display: inline-block;
@@ -567,8 +577,12 @@ time {
   .no-image{
     display: none;
   }
+  .image-project{
+    width: 520px;
+    height: 320px;
+  }
   .design-btn{
-    bottom: -270px;
+    bottom: -230px;
   }
 }
 #me {
@@ -617,15 +631,39 @@ time {
   padding: 50px 0 0 0;
   margin-bottom: 100px;
 }
+
+.images-me {
+  display: grid;
+  grid-template-columns: 300px 480px 300px;
+  gap: 10px;
+}
 @media screen and (max-width: 550px) {
   .text-about-me {
     width: 100%;
     font-size: 28px;
     line-height: 36px;
   }
-  .blog-cont{
-    padding-top: 220px;
+  .images-me{
+    display: grid;
+    grid-template-columns: 150px 200px 150px;
+    gap: 10px;
   }
+.images-one{
+  width: 150px;
+  height: 300px;
+} 
+.images-two{
+  width: 200px;
+  height: 300px;
+} 
+.images-three{
+  width: 150px;
+  height: 145px;
+} 
+.designer-me h1 {
+  font-size: 44px;
+  line-height: 44px;
+}
 }
 @media screen and (max-width: 320px) {
   .designer-me h1 {
@@ -643,11 +681,6 @@ time {
     font-size: 40px;
     line-height: 44px;
   }
-}
-.images-me {
-  display: grid;
-  grid-template-columns: 300px 480px 300px;
-  gap: 10px;
 }
 h3 {
   margin: 0;
@@ -775,11 +808,15 @@ h3 {
   .container{
     width: 520px;
   }
+  #experience{
+    width: 520px;
+  }
   .education{
-    width: 530px;
+    width: 520px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 0;
   }
   .educate {
     width: 100%;
@@ -792,7 +829,7 @@ h3 {
   }
   .name-educate-list {
     margin-bottom: 40px;
-    width: 550px;
+    width: 520px;
   }
   .work {
     font-size: 44px;
@@ -805,10 +842,14 @@ h3 {
   .name-educate p {
     font-size: 24px;
     line-height: 32px;
+    width: 470px;
   }
   .year {
-    font-size: 20px;
-    line-height: 32px;
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .name-work{
+    width:400px ;
   }
   .name-work-first p,
   .name-work-sec p,
@@ -904,6 +945,15 @@ h4 {
 .for {
   margin-left: -0.25em;
 }
+@media screen and (max-width: 550px){
+  .testimonials h3 {
+    font-size: 44px;
+    line-height: 44px;
+  }
+  .testimonials{
+    padding-top: 0;
+  }
+}
 @media screen and (max-width: 320px) {
   .testimonials h3 {
     font-size: 44px;
@@ -924,6 +974,9 @@ h4 {
   .founder {
     font-size: 24px;
     line-height: 28px;
+  }
+  .testimonials{
+   padding-top: 0; 
   }
 }
 .faq {
@@ -1005,6 +1058,17 @@ details[open] .title-details::after {
 }
 details summary::-webkit-details-marker {
   display: none;
+}
+@media screen and (max-width: 550px) {
+  .left-details,
+  .right-details {
+    width: 100%;
+  }
+  details {
+    width: 100%;
+  }
+  .faq-question {
+    width: 520px;
 }
 @media screen and (max-width: 320px) {
   .faq-cont h5 {
