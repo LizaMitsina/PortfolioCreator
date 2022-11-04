@@ -145,7 +145,7 @@ button:focus {
   background: #f7f5f5;
   color: black;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1100px) {
   .container {
     width: 900px;
     padding: 0 10px;
@@ -174,7 +174,7 @@ button:focus {
     line-height: 30px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   .container {
     width: 700px;
     padding: 0 20px;
@@ -208,7 +208,50 @@ button:focus {
     width: 400px;
   }
 }
-
+@media screen and (max-width: 710px){
+  .container {
+    width: 540px;
+    padding: 0 10px;
+  }
+  .greetings{
+    margin-top: 0;
+    width: 540px;
+    padding: 0 10px;
+  }
+  .left-text{
+    width: 260px;
+  }
+  .nav {
+    width: 240px;
+    padding: 20px;
+  }
+  .navigation button {
+    display: none;
+  }
+  .main-photo {
+    width: 280px;
+    height: 350px;
+  }
+  .orange-text {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .text {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .aboutme {
+    font-size: 16px;
+    line-height: 22px;
+    width: 260px;
+    margin: 10px 0;
+  }
+  .btn {
+    font-size: 20px;
+    line-height: 24px;
+    width: 240px;
+  }
+}
 @media screen and (max-width: 550px) {
   .container {
     width: 520px;
@@ -324,7 +367,7 @@ button:focus {
 .company {
   margin-bottom: 90px;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1100px) {
   .company p {
     font-size: 36px;
     line-height: 38px;
@@ -333,7 +376,7 @@ button:focus {
     width: 120px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   .company p {
     font-size: 24px;
     line-height: 28px;
@@ -342,6 +385,20 @@ button:focus {
     width: 200px;
     height: 40px;
   }
+}
+@media screen and (max-width: 710px){
+  .company p {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .friends{
+    display: flex;
+    justify-content: center;
+  }
+  .friends img {
+    width: 200px;
+    margin: 15px;
+  } 
 }
 @media screen and (max-width: 550px) {
   .company p {
@@ -425,7 +482,7 @@ button:focus {
   line-height: 28px;
   color: #666;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1100px) {
   .red-text {
     font-size: 38px;
     line-height: 40px;
@@ -445,7 +502,7 @@ button:focus {
     line-height: 26px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   .red-text {
     font-size: 38px;
     line-height: 40px;
@@ -465,6 +522,32 @@ button:focus {
   }
   .text-benefits {
     width: 215px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .red-text {
+    font-size: 38px;
+    line-height: 40px;
+  }
+  .large-text {
+    width: 500px;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+  .title {
+    font-size: 22px;
+    line-height: 26px;
+  }
+  .benefits-left,
+  .benefits-center,
+  .benefits-right {
+    width: 540px;
+  }
+  .text-benefits {
+    width: 540px;
     font-size: 18px;
     line-height: 26px;
   }
@@ -597,6 +680,12 @@ section {
     line-height: 36px;
   }
 }
+@media screen and (max-width: 710px){
+  .blog-cont {
+    width: 100%;
+    padding-top: 220px;
+  }
+}
 @media screen and (max-width: 550px) {
   .blog-cont {
     width: 100%;
@@ -649,9 +738,12 @@ time {
   padding: 25px 0 35px 0;
   border-bottom: 1px solid rgba(229, 229, 229, 0.2);
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1100px) {
   .list-blog {
-    width: 100%;
+    width: 500px;
+  }
+  .left-blog{
+    width: 400px;
   }
   .list-blog li {
     width: 100%;
@@ -664,10 +756,15 @@ time {
     padding-top: 0px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   .text-blog {
     font-size: 26px;
     line-height: 32px;
+  }
+}
+@media screen and (max-width: 710px){
+  .list-blog {
+    width: 540px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -801,7 +898,7 @@ time {
   width: 350px;
   height: 220px;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1100px) {
   .list-project li {
     width: 280px;
     height: 402.6px;
@@ -820,7 +917,7 @@ time {
     padding-top: 25px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   .list-project li {
     width: 245px;
   }
@@ -850,6 +947,59 @@ time {
     position: absolute;
     left: 0;
     top: 240px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .list-project li {
+    width: 180px;
+    height: 280px;
+  }
+  #project {
+    margin-bottom: -215px;
+  }
+  .project-text button {
+    margin-top: 20px;
+  }
+  .project-name {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .name-project{
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 0;
+  }
+  .name-project,
+  .project-name,
+  .project-view{
+    margin-left: 15px;
+  }
+  .first-image-project,
+  .image-project {
+    width: 180px;
+    height: 150px;
+  }
+  .last-image {
+    width: 180px;
+    height: 150px;
+  }
+  .last-view {
+    margin-top: 20px;
+    padding-top: 25px;
+  }
+  .title-main-project {
+    position: relative;
+  }
+  .list-project {
+    position: absolute;
+    left: 0;
+    top: 280px;
+  }
+  .last-view{
+    padding-top: 20px;
+  }
+  .design-btn {
+    bottom: 0;
   }
 }
 @media screen and (max-width: 550px) {
@@ -1026,7 +1176,7 @@ time {
   grid-template-columns: 300px 480px 300px;
   gap: 10px;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1100px) {
   .text-about-me {
     width: 400px;
     font-size: 20px;
@@ -1059,10 +1209,8 @@ time {
     line-height: 28px;
   }
 }
-@media screen and (max-width: 900px) {
-  .container {
-    width: 700px;
-  }
+@media screen and (max-width: 910px) {
+
   .text-about-me {
     width: 400px;
     font-size: 20px;
@@ -1096,6 +1244,43 @@ time {
   }
   .designer-me {
     width: 300px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .text-about-me {
+    width: 300px;
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 0;
+    margin-bottom: 50px;
+  }
+  .images-me {
+    display: grid;
+    grid-template-columns: 150px 220px 150px;
+    gap: 10px;
+  }
+  .images-one {
+    width: 150px;
+    height: 260px;
+  }
+  .images-two {
+    width: 225px;
+    height: 260px;
+  }
+  .images-three {
+    width: 150px;
+    height: 125px;
+  }
+  .designer-me h1 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .designer-me p {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .designer-me {
+    width: 220px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -1278,7 +1463,7 @@ h3 {
   left: 0;
   position: absolute;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1100px) {
   #experience {
     width: 900px;
   }
@@ -1304,7 +1489,7 @@ h3 {
     padding-bottom: 20px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   #experience {
     width: 700px;
   }
@@ -1346,6 +1531,53 @@ h3 {
   .name-educate h3 {
     font-size: 26px;
     line-height: 32px;
+  }
+}
+@media screen and (max-width: 710px) {
+  #experience {
+    width: 540px;
+  }
+  .education {
+    width: 540px;
+    padding-top: 0;
+  }
+  .educate {
+    width: 540px;
+    padding-top: 20px;
+  }
+  .name-educate p {
+    width: 310px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .work{
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  .educt{
+    font-size: 24px;
+  }
+  .year {
+    font-size: 14px;
+    line-height: 20px;
+    width: 100px;
+  }
+  .name-work-first p,
+  .name-work-sec p,
+  .name-work-th p {
+    font-size: 16px;
+    line-height: 20px;
+    width: 200px;
+  }
+  .name-work-first h3,
+  .name-work-sec h3,
+  .name-work-th h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .name-educate h3 {
+    font-size: 20px;
+    line-height: 30px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -1548,7 +1780,7 @@ h4 {
 .for {
   margin-left: -0.25em;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1100px) {
   .john {
     width: 370px;
     height: 400px;
@@ -1558,7 +1790,7 @@ h4 {
     line-height: 34px;
   }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 910px){
   .john {
     width: 320px;
     height: 350px;
@@ -1571,6 +1803,42 @@ h4 {
     font-size: 18px;
     line-height: 24px;
     margin-top: 0;
+  }
+}
+@media screen and (max-width: 710px){
+  .john {
+    width: 200px;
+    height: 220px;
+  }
+  .testi{
+    width: 320px;
+    padding: 0;
+  }
+  .text-testi {
+    width: 320px;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 15px 0;
+  }
+  .left-right {
+    display: inline-block;
+    width: 30px;
+    height: 35px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #000;
+  }
+  .founder {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    text-align: left;
+  }
+  .world-street{
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 20px;
   }
 }
 @media screen and (max-width: 550px) {
@@ -1688,7 +1956,7 @@ details[open] .title-details::after {
 details summary::-webkit-details-marker {
   display: none;
 }
-@media screen and (max-width: 1020px) {
+@media screen and (max-width: 1100px) {
   .faq-question {
     width: 900px;
   }
@@ -1704,7 +1972,7 @@ details summary::-webkit-details-marker {
     line-height: 28px;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 910px) {
   .faq-question {
     width: 700px;
   }
@@ -1714,6 +1982,22 @@ details summary::-webkit-details-marker {
   }
   details {
     width: 700px;
+  }
+  .title-details {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .faq-question {
+    width: 540px;
+  }
+  .left-details,
+  .right-details {
+    width: 540px;
+  }
+  details {
+    width: 540px;
   }
   .title-details {
     font-size: 22px;
