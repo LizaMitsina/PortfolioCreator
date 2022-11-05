@@ -179,7 +179,7 @@ button:focus {
     width: 700px;
     padding: 0 20px;
   }
-  .greetings{
+  .greetings {
     margin-top: 0;
   }
   .nav {
@@ -209,17 +209,17 @@ button:focus {
     width: 400px;
   }
 }
-@media screen and (max-width: 710px){
+@media screen and (max-width: 710px) {
   .container {
     width: 540px;
     padding: 0 10px;
   }
-  .greetings{
+  .greetings {
     margin-top: 0;
     width: 540px;
     padding: 0 10px;
   }
-  .left-text{
+  .left-text {
     width: 260px;
   }
   .nav {
@@ -294,54 +294,56 @@ button:focus {
     width: 200px;
     height: 260px;
   }
-  .greetings{
+  .greetings {
     align-items: flex-start;
   }
   .left-text {
     width: 220px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
   .container {
     padding-left: 10px;
     padding-right: 10px;
-    width: 320px;
+    width: 300px;
   }
   .greetings {
     margin: 20px 0 40px 0;
   }
   .navigation li {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 24px;
   }
   .navigation button {
     display: none;
   }
   .nav {
-    width: 320px;
+    width: 300px;
     padding: 20px;
-    border-bottom: #666 2px solid;
   }
   #main {
     width: 100%;
   }
+  header {
+    margin-bottom: 0;
+  }
   .orange-text {
-    font-size: 36px;
-    line-height: 38px;
-    width: 320px;
-  }
-  .text {
-    font-size: 36px;
-    line-height: 38px;
-  }
-  .aboutme {
-    font-size: 20px;
-    line-height: 24px;
-    width: 320px;
-  }
-  .btn {
     font-size: 30px;
     line-height: 32px;
+    width: 300px;
+  }
+  .text {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .aboutme {
+    font-size: 16px;
+    line-height: 18px;
+    width: 300px;
+  }
+  .btn {
+    font-size: 20px;
+    line-height: 22px;
     width: 320px;
   }
   .main-photo {
@@ -391,45 +393,44 @@ button:focus {
     height: 40px;
   }
 }
-@media screen and (max-width: 710px){
+@media screen and (max-width: 710px) {
   .company p {
     font-size: 30px;
     line-height: 32px;
   }
-  .friends{
+  .friends {
     display: flex;
     justify-content: center;
   }
   .friends img {
     width: 200px;
     margin: 15px;
-  } 
+  }
 }
 @media screen and (max-width: 550px) {
   .company p {
     font-size: 20px;
     line-height: 22px;
   }
-  .company{
+  .company {
     margin-bottom: 20px;
   }
   .friends img {
     width: 30%;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
   .company p {
-    font-size: 36px;
-    line-height: 38px;
+    font-size: 20px;
+    line-height: 26px;
   }
   .friends {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
   }
   .friends img {
-    width: 225px;
+    width: 120px;
     margin-bottom: 15px;
   }
   .company {
@@ -576,7 +577,7 @@ button:focus {
   }
   .benefits-left img,
   .benefits-center img,
-  .benefits-right img{
+  .benefits-right img {
     width: 30px;
     height: 30px;
   }
@@ -595,15 +596,16 @@ button:focus {
     color: #666;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
   .red-text {
-    font-size: 36px;
-    line-height: 40px;
-  }
-  .large-text {
     font-size: 30px;
     line-height: 32px;
+  }
+  .large-text {
+    font-size: 22px;
+    line-height: 24px;
     margin-bottom: 35px;
+    width: 300px;
   }
   .benefits-left,
   .benefits-center,
@@ -613,7 +615,7 @@ button:focus {
   .benefits-left img,
   .benefits-center img,
   .benefits-right img {
-    width: 50px;
+    width: 40px;
   }
   .title {
     margin-top: 20px;
@@ -694,7 +696,7 @@ section {
     line-height: 36px;
   }
 }
-@media screen and (max-width: 710px){
+@media screen and (max-width: 710px) {
   .blog-cont {
     width: 100%;
     padding-top: 220px;
@@ -709,19 +711,19 @@ section {
     font-size: 24px;
     line-height: 32px;
   }
-  .latest-news{
+  .latest-news {
     font-size: 32px;
     line-height: 34px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
   .blog-cont {
     width: 100%;
     padding-top: 290px;
   }
   .blog {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 32px;
   }
 }
 .list-blog {
@@ -760,7 +762,7 @@ time {
   .list-blog {
     width: 500px;
   }
-  .left-blog{
+  .left-blog {
     width: 400px;
   }
   .list-blog li {
@@ -780,7 +782,7 @@ time {
     line-height: 32px;
   }
 }
-@media screen and (max-width: 710px){
+@media screen and (max-width: 710px) {
   .list-blog {
     width: 540px;
   }
@@ -801,11 +803,10 @@ time {
   .list-blog {
     padding-top: 0px;
   }
-  
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
   .text-blog {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
   }
 }
@@ -985,14 +986,14 @@ time {
     font-size: 16px;
     line-height: 20px;
   }
-  .name-project{
+  .name-project {
     font-size: 14px;
     line-height: 18px;
     margin-top: 0;
   }
   .name-project,
   .project-name,
-  .project-view{
+  .project-view {
     margin-left: 15px;
   }
   .first-image-project,
@@ -1016,7 +1017,7 @@ time {
     left: 0;
     top: 280px;
   }
-  .last-view{
+  .last-view {
     padding-top: 20px;
   }
   .design-btn {
@@ -1082,20 +1083,20 @@ time {
     bottom: -70px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
   #project {
-    margin-bottom: -115px;
+    margin-bottom: -150px;
   }
   .project-name {
     font-size: 20px;
     line-height: 24px;
   }
   .list-project li {
-    width: 100%;
+    width: 300px;
   }
   .title-main-project {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 32px;
   }
   .title-main-project {
     position: relative;
@@ -1103,11 +1104,11 @@ time {
   .list-project {
     position: absolute;
     left: 10px;
-    top: 280px;
+    top: 240px;
   }
   .first-image-project {
-    width: 320px;
-    height: 220px;
+    width: 300px;
+    height: 210px;
   }
   .left-design {
     display: inline-block;
@@ -1120,8 +1121,8 @@ time {
     border: none;
   }
   .results p {
-    font-size: 26px;
-    line-height: 30px;
+    font-size: 24px;
+    line-height: 26px;
   }
   .project-text button {
     margin-top: 20px;
@@ -1130,17 +1131,17 @@ time {
     line-height: 40px;
   }
   .list-project li {
-    width: 320px;
+    width: 300px;
   }
   .no-image {
     display: none;
   }
   .image-project {
-    width: 520px;
+    width: 300px;
     height: 320px;
   }
   .design-btn {
-    bottom: -130px;
+    bottom: -90px;
   }
 }
 #me {
@@ -1241,7 +1242,6 @@ time {
   }
 }
 @media screen and (max-width: 910px) {
-
   .text-about-me {
     width: 400px;
     font-size: 20px;
@@ -1342,38 +1342,38 @@ time {
     line-height: 32px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
   .designer-me h1 {
-    font-size: 36px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 32px;
   }
   .text-about-me {
     width: 100%;
-    font-size: 20px;
-    line-height: 22px;
+    font-size: 16px;
+    line-height: 20px;
     margin-bottom: 20px;
-    padding-top: 20px;
+    padding-top: 10px;
   }
   .designer-me p {
-    font-size: 26px;
-    line-height: 30px;
+    font-size: 32px;
+    line-height: 32px;
   }
   .images-me {
     display: grid;
-    grid-template-columns: 100px 110px 100px;
+    grid-template-columns: 90px 95px 90px;
     gap: 5px;
   }
   .images-one {
-    width: 100px;
-    height: 200px;
+    width: 90px;
+    height: 150px;
   }
   .images-two {
-    width: 110px;
-    height: 200px;
+    width: 95px;
+    height: 150px;
   }
   .images-three {
-    width: 100px;
-    height: 95px;
+    width: 90px;
+    height: 70px;
   }
 }
 h3 {
@@ -1539,7 +1539,7 @@ h3 {
   .name-work {
     width: 400px;
   }
-  .work{
+  .work {
     margin-top: 20px;
   }
   .year {
@@ -1581,11 +1581,11 @@ h3 {
     font-size: 16px;
     line-height: 20px;
   }
-  .work{
+  .work {
     margin-top: 20px;
     font-size: 24px;
   }
-  .educt{
+  .educt {
     font-size: 24px;
   }
   .year {
@@ -1671,15 +1671,15 @@ h3 {
     line-height: 30px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
   #me {
     margin-bottom: 40px;
   }
   #experience {
-    width: 320px;
+    width: 300px;
   }
   .education {
-    width: 320px;
+    width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1690,26 +1690,26 @@ h3 {
     padding-top: 70px;
   }
   .educt {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 32px;
     margin: 0;
   }
   .name-educate-list {
     margin-bottom: 40px;
-    width: 320px;
+    width: 300px;
   }
   .work {
-    font-size: 32px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 32px;
   }
   .name-educate h3 {
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 22px;
   }
   .name-educate p {
-    font-size: 20px;
-    line-height: 24px;
-    width: 200px;
+    font-size: 16px;
+    line-height: 20px;
+    width: 260px;
   }
   .year {
     font-size: 12px;
@@ -1721,14 +1721,14 @@ h3 {
   .name-work-first p,
   .name-work-sec p,
   .name-work-th p {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 16px;
+    line-height: 20px;
   }
   .name-work-first h3,
   .name-work-sec h3,
   .name-work-th h3 {
-    font-size: 24px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 22px;
   }
 }
 .testimonials {
@@ -1821,12 +1821,12 @@ h4 {
     line-height: 34px;
   }
 }
-@media screen and (max-width: 910px){
+@media screen and (max-width: 910px) {
   .john {
     width: 320px;
     height: 350px;
   }
-  .testi{
+  .testi {
     width: 350px;
   }
   .text-testi {
@@ -1836,12 +1836,12 @@ h4 {
     margin-top: 0;
   }
 }
-@media screen and (max-width: 710px){
+@media screen and (max-width: 710px) {
   .john {
     width: 200px;
     height: 220px;
   }
-  .testi{
+  .testi {
     width: 320px;
     padding: 0;
   }
@@ -1866,7 +1866,7 @@ h4 {
     font-weight: 400;
     text-align: left;
   }
-  .world-street{
+  .world-street {
     font-size: 30px;
     line-height: 32px;
     margin-bottom: 20px;
@@ -1883,18 +1883,18 @@ h4 {
     padding-top: 0;
     width: 420px;
   }
-  .world-street{
+  .world-street {
     font-size: 30px;
     line-height: 32px;
   }
-  section{
+  section {
     margin-bottom: 30px;
   }
   .john {
     width: 200px;
     height: 220px;
   }
-  .testi{
+  .testi {
     width: 200px;
   }
   .text-testi {
@@ -1902,7 +1902,7 @@ h4 {
     font-size: 14px;
     line-height: 18px;
   }
-  .testi img{
+  .testi img {
     width: 20px;
     height: 20px;
   }
@@ -1912,37 +1912,43 @@ h4 {
     font-weight: 400;
     text-align: left;
   }
-  .testimonials h4{
+  .testimonials h4 {
     font-size: 14px;
     line-height: 14px;
   }
-  .john-testi{
+  .john-testi {
     padding: 0;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
   .testimonials h3 {
-    font-size: 34px;
-    line-height: 40px;
+    font-size: 30px;
+    line-height: 32px;
   }
   .world-street {
-    font-size: 32px;
-    line-height: 34px;
+    font-size: 24px;
+    line-height: 26px;
   }
   .john {
-    width: 320px;
-    height: 300px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+  .testi {
+    width: 200px;
   }
   .text-testi {
-    font-size: 24px;
-    line-height: 30px;
+    width: 200px;
+    font-size: 12px;
+    line-height: 14px;
     margin: 0 0 20px 0;
   }
   .founder {
-    font-size: 16px;
-    line-height: 20px;
+    font-size: 10px;
+    line-height: 16px;
   }
   .testimonials {
+    width: 300px;
     padding-top: 0;
   }
 }
@@ -2104,40 +2110,40 @@ details summary::-webkit-details-marker {
     font-size: 16px;
     line-height: 20px;
   }
-  .faq{
+  .faq {
     padding-bottom: 20px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
   .faq-cont h5 {
     font-size: 30px;
-    line-height: 40px;
+    line-height: 32px;
     margin-top: 20px;
   }
   .faq-cont p {
-    font-size: 30px;
-    line-height: 32px;
-  }
-  .left-details,
-  .right-details {
-    width: 100%;
-  }
-  details {
-    width: 100%;
-  }
-  .title-details {
     font-size: 24px;
     line-height: 26px;
   }
+  .left-details,
+  .right-details {
+    width: 300px;
+  }
+  details {
+    width: 300px;
+  }
+  .title-details {
+    font-size: 16px;
+    line-height: 20px;
+  }
   .text-details {
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 14px;
+    line-height: 18px;
   }
   .faq-question {
     width: 320px;
   }
   .faq {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
   }
 }
 .footer {
@@ -2231,18 +2237,18 @@ address {
     line-height: 28px;
   }
 }
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 430px) {
   .ready {
-    font-size: 30px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 26px;
   }
   .lets {
-    font-size: 26px;
-    line-height: 28px;
+    font-size: 30px;
+    line-height: 32px;
   }
 }
 .pop-up-bg {
-  display: none;
+  display: block;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -2339,4 +2345,162 @@ address {
 .tel:active {
   border: #7e35a0 2px solid;
   transition: 0.8 all;
+}
+@media screen and (max-width: 550px){
+  .pop-up {
+    width: 400px;
+    height: 320px;
+  }
+  .cross-popup {
+    position: absolute;
+    top: 20px;
+    left: 420px;
+    z-index: 1;
+    transform: rotate(40deg);
+  }
+  .logo-popup {
+    margin-top: 5px;
+    width: 200px;
+  }
+  .pop-up h1 {
+    color: #f26a30;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 700;
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .pop-up-p {
+    width: 400px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  .btn-pop-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 400px;
+  }
+  .pop-up button {
+    width: 190px;
+    background-color: #010101;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #f5f5f5;
+    margin-top: 30px;
+    display: block;
+  }
+  .pop-up button:hover,
+  .pop-up button:focus {
+    background: #f7f5f5;
+    color: #010101;
+    transition: 0.5s all;
+  }
+  .label-tel {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    margin-right: 15px;
+    color: #fff;
+  }
+  .tel {
+    width: 170px;
+    border: #000 2px solid;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 430px) {
+  .pop-up-bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .pop-up {
+    width: 200px;
+    height: 220px;
+  }
+  .cross-popup {
+    position: absolute;
+    top: 20px;
+    left: 220px;
+    z-index: 1;
+    transform: rotate(40deg);
+  }
+  .logo-popup {
+    margin-top: 5px;
+    width: 100px;
+  }
+  .pop-up h1 {
+    color: #f26a30;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    width: 200px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .pop-up-p {
+    width: 200px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 700;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  .btn-pop-up {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 200px;
+  }
+  .pop-up button {
+    width: 95px;
+    background-color: #010101;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #f5f5f5;
+    margin-top: 10px;
+    display: block;
+  }
+  .pop-up button:hover,
+  .pop-up button:focus {
+    background: #f7f5f5;
+    color: #010101;
+    transition: 0.5s all;
+  }
+  .label-tel {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    margin-right: 15px;
+    color: #fff;
+  }
+  .tel {
+    width: 170px;
+    border: #000 2px solid;
+    padding: 10px;
+  }
+  .tel:hover,
+  .tel:focus,
+  .tel:active {
+    border: #7e35a0 2px solid;
+    transition: 0.8 all;
+  }
 }
